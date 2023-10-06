@@ -1,5 +1,16 @@
-This is your prelim laboratory exam.
+# Welcome to my humble repository (>///<)
+>It ain't much, but it's honest work
 
-Use everything you learned (if there is) in solving this repository.
+---
 
-Goodluck!
+## Name
+Gene Feliciano
+
+---
+
+## Year and Block
+ 3-2
+ 
+ ---
+
+_can I merge my branch into your repo ( ͡° ͜ʖ ͡°) hehe_
