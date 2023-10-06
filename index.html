@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--g.feliciano-->
+<head>
+    <title>Dropdown!!</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+        }
+        body{
+            background-color: #1b2838;
+            margin: 0;
+        }
+        ul{
+            height: 70px;
+            background-color: #191c25;
+            list-style-type: none;
+            padding: 10px 20px;
+            margin: 0;
+            overflow: hidden;
+        }
+        li{
+            margin: 25px 0px 0px 0px;
+            float: left;
+            font-size: 18px;
+        }
+        .dropdown{
+            display: inline-block;
+        }
+        li a, .btn_dropdown{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            padding: 10px 13px;
+            text-align: center;
+        }
+        .options{
+            min-width: 150px;
+            display: none;
+            position: absolute;
+            background-color: #282c38;
+        }
+        .options a{
+            text-align: left;
+            padding: 6px 12px;
+            color: text;
+            display: block;
+        }
+        .options a hover{
+            background-color: #555a68;
+        }
+        li a:hover, .btn_dropdown:hover, .dropdown:hover{
+            background-color: #5d6b8d;
+            border-radius: 4px;
+        }
+        .dropdown:hover .options{
+            display: block;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.513);
+        }
+        .profileleft{
+            font-size: 15px;
+            text-align: right;
+            line-height: 24px;
+            float: right;
+            color: white;
+            margin: 10px 0px 0px 0px;
+            padding: 5px;
+        }
+        .submenu{
+            font-size: 12px;
+        }
+        img{
+            float: right;
+            margin: 0px 8px 0px 8px;
+            width: 40px;
+            border: 2px solid #4587a4;
+        }
+        table{
+            margin-top: 2vw;
+            margin-left: 15vw;
+            border: 2px solid #353b4d;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 2vw;
+            text-align: center;
+        }
+        tr:hover{
+            background-color: rgb(81, 121, 139);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="dropdown">
+                <a href="#">STORE</a>
+                <div class="options submenu">
+                    <a href="#">HOME</a>
+                    <a href="#">DISCOVERY QUEUE</a>
+                    <a href="#">WISHLIST</a>
+                    <a href="#">POINT SHOP</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">STATS</a>
+                </div>             
+            </li>
+            <li><a href="#">LIBRARY</a></li>
+            <li class="dropdown">
+                <a class="btn_dropdown" href="#">COMMUNITY</a>
+                <div class="options submenu">
+                    <a href="#">HOME</a>
+                    <a href="#">DISCUSSIONS</a>
+                    <a href="#">WORKSHOP</a>
+                    <a href="#">MARKET</a>
+                    <a href="#">BROADCASTS</a>
+                </div>
+            <li><a href="#">SANGUINE_IMPASSE</a></li>
+            </li>
+            <li class="profileleft">
+                <img src="https://cdn.discordapp.com/attachments/829019327486885959/1159841334518091826/mumers.png?ex=65327d6a&is=6520086a&hm=12ffd9ac3aadf4af51a9e38ecc577620ba3cbf31535efea9d701bebbcdece728&">
+                sanguine_impasse<br>
+                P7.59
+            </li>
+        </ul>
+    </div>
+    <p style="font-size: 15px; margin-left: 13%;margin-bottom: 0; margin-top: 2%; color: white;">All Discussions > Table Samples</p>
+    <p style="font-size: 50px; margin-left: 13%;margin-bottom: 0; margin-top: 10px; color: white;">Table</p>
+    <table>
+        <tr>
+          <th>Fruits</th>
+          <th>Vegetables</th>
+          <th>Drinks</th>
+          <th>Snacks</th>
+        </tr>
+        <tr>
+          <td>Apples</td>
+          <td>Aubergine</td>
+          <td>Juice</td>
+          <td>Turrón</td>
+        </tr>
+        <tr>
+          <td>Oranges</td>
+          <td>Tomato</td>
+          <td>Water</td>
+          <td>Kwek-Kwek</td>
+        </tr>
+
+      </table> 
+</body>
+</html>
